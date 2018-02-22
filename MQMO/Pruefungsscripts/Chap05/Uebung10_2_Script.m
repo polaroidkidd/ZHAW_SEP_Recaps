@@ -1,0 +1,1 @@
+Anteil_kleiner_als_15s = sum((waitingTimes)<15)/length(waitingTimes)

@@ -1,0 +1,12 @@
+Funktionen deklarieren
+-----------------------------
+y = @(x) (x.^2)
+
+Plotten
+------------
+fplot(y, [-100,100]);
+xlim([-10,10]);
+
+for-Schleife
+---------------------
+for counter = 1 : length((a)-1)

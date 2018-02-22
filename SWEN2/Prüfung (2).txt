@@ -1,0 +1,102 @@
+AGILE
+What is the methodology?
+Agile manifesto
+Not all principles, but understand the idea of principles
+
+XP
+4 variables in develping software
+Cost of change
+
+# XP Values 
+What does the values mean? E.g. what does communication mean? Why is it important?
+What are the particular practices? What do they consist in?
+
+USER STORIES
+What user stories are for? What's their relation to verbal vs. written communication? - Deepening the knowledge by talking
+Balance between business and dev side
+What is a user story?
+3 parts of a user story - CCC
+# What is a theme and epic?
+How user roles help in making user stories? As a... Understand who us are for
+Special stories: spikes and non-func reqs
+INVEST - attributes of a good user story
+
+PLANNING & ESTIMATING
+Why is planning needed?
+What is iterative planning? Why is it useful?
+Agile Approach to planning --> slide 13
+Levels of planning --> slide 16
+Conditions of satisfaction --> 18-19
+What are story points? Def of velocity
+What is planning poker? Why do people hide cards in the planning poker?
+Date-driven and feature-driven project - what's the difference?
+Who does the estimates of the user stories?
+How do you prioritize us? --> 50 And explain what is cost, value, knowledge and risk
+Kano model of customer satisfaction
+Tracking: burnup and burndown chart (burnup chart you can track adding more us to the sprint backlog)
+
+SCRUM
+Scrum in your own words
+# Stacey model --> 12 (defined and empirical control model)
+What is a backlog? What sort of backlogs there are? What is a sprint?
+Roles, Ceremonies, Artifacts of Scrum --> 21
+Taskboard and burndown smells --> around slide 50
+
+ADVANCED SCRUM
+Sprint Review Mechanics
+Retrospective expectations, results of retro
+Definition of Done
+Definition of Ready
+Self-organisation importance in scrum, boudaries of self-organizing team
+
+ARCHITECTURE
+(Arch and Architect)
+Definition of what software architecture is - your own definition (components, connections and organization between components)
+What are 4+1 architecture of Kruchten (process view, phisical view etc.)
+Slide 50 --> What you want to build and how? Solution as a moving target
+Why do we need architecture? --> slide 51
+
+ARCH2
+Architecture Styles: Components and Benefits, Drawbacks - basically the whole slide deck
+
+ORM
+What is a domain model? --> 5
+What is the mismatch between OO-world and db world? The conflict between the two. --> also slide 19
+What is ORM?
+Promises of ORM? Decoupling, automated persintance, abstraction, separation of concerns --> 24-25
+What are the conceptual problems in Objectorineted Mapping? --> starting from 27; explain what the problem constis in? e.g. SQL generated not optimized
+JPA stack --> 34
+HOw does JPA in general? YOu use annotations. What kind of annotations?
+What is an entity manager? 
+What is persistance unit? 
+Difference and eager fetching.
+Lifecycle of entities ("Entity Lifecycle..." Slide)
+No technical details around slide 55
+What is the diff between relationsships in OOworld and ORM? In OOworld there are directions. --> 67 No details about 1-1, many-1 etc.
+Directionality of relationships - to ensure bidirectionality use convinience methods. --> before 79
+What is cascading? --> ORM2 around 10
+
+ORM2
+States of objects --> 6 (draw a diagam)
+When does an object receive an id in JPA? Only when transaction is closed.
+What is the find method? --> 13
+What is the problem with rollback? THe state of object in OO is not rollback. I need to take care of it on my own.
+What does clear method do?
+What does it mean to navigate the object graph? --> 25 (alias e.address --> join)
+JPQL - what is it?
+Named vs. positional parameters --> 29
+HL question: inheritance, don't need to remember the details, inheritance supported, various ways of saving data in tables.
+
+SOLID
+All of them
+Explain the principle? Problems if not respecting a principle. Give an example. Violation of a principle and how to fix it. Read def of principles. What can happen if you have a violation?
+
+3-4 questions, 15 minutes
+
+
+
+
+
+
+
+

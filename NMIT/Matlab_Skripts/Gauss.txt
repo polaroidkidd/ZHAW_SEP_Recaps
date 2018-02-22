@@ -1,0 +1,7 @@
+A= 
+[L,R,P] = lu(A)
+
+function [L,R,D] = LDR(A)
+D = diag(diag(A))
+L = tril(A)-D
+R = triu(A)-D

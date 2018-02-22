@@ -1,0 +1,10 @@
+A = [2 4;4 8.1];
+b = [1;1.5];
+abweichung_b = 0.1
+abweichung_a = 0.003
+b_schl = [1.1;1.6];
+b_minus = [0.1;0.1];
+abs_err = norm(inv(A),Inf)*norm(b_minus,Inf)
+rel_err = cond(A,inf)*(norm(b_minus,Inf)/norm(b,inf))
+
+x_schl = 

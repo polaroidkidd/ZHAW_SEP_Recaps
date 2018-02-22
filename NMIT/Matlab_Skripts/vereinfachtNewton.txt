@@ -1,0 +1,10 @@
+function [] = Aufgabe1einfachesNewton(xn)
+
+
+f = @(x) exp(1).^(x.^2) + x.^(-3) -10;
+fstrich = @(x) 2*x*exp(1).^(x.^2) -3*x.^(-4);
+
+
+next = xn()-(f(xn)/-46.7160)
+
+end
